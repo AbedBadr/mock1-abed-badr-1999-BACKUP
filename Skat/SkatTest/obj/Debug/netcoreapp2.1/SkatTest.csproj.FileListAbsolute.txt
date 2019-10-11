@@ -1,0 +1,17 @@
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\bin\Debug\netcoreapp2.1\SkatTest.deps.json
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\bin\Debug\netcoreapp2.1\SkatTest.runtimeconfig.json
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\bin\Debug\netcoreapp2.1\SkatTest.runtimeconfig.dev.json
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\bin\Debug\netcoreapp2.1\SkatTest.dll
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\bin\Debug\netcoreapp2.1\SkatTest.pdb
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\bin\Debug\netcoreapp2.1\Skat.dll
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\bin\Debug\netcoreapp2.1\Skat.pdb
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\obj\Debug\netcoreapp2.1\SkatTest.csprojAssemblyReference.cache
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\obj\Debug\netcoreapp2.1\SkatTest.csproj.CoreCompileInputs.cache
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\obj\Debug\netcoreapp2.1\SkatTest.AssemblyInfoInputs.cache
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\obj\Debug\netcoreapp2.1\SkatTest.AssemblyInfo.cs
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\obj\Debug\netcoreapp2.1\SkatTest.csproj.CopyComplete
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\obj\Debug\netcoreapp2.1\SkatTest.dll
+C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\SkatTest\obj\Debug\netcoreapp2.1\SkatTest.pdb
