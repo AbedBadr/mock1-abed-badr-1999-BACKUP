@@ -42,8 +42,37 @@ namespace TCPServer
                     answer = afgift.BilAfgift(pris).ToString();
                     sw.WriteLine(answer);
                 }
-                //answer = message.ToUpper();
-                //sw.WriteLine(answer);
+
+                if (message == "Elbil" || message == "elbil")
+                {
+                    answer = "Indtast pris:";
+                    sw.WriteLine(answer);
+
+                    message = sr.ReadLine();
+                    
+                    try
+                    {
+                        int pris = Convert.ToInt32(message);
+
+                        Afgift afgift = new Afgift();
+
+                        answer = ("Elbil afgiften er: " + afgift.ElBilAfgift(pris).ToString());
+                        sw.WriteLine(answer);
+                    }
+                    catch (FormatException e)
+                    {
+                        Console.WriteLine("Svar skal kun være tal", e.Message);
+                    }
+
+                }
+
+                else
+                {
+                    answer = "Du skal indtaste personbil eller elbil";
+                    sw.WriteLine();
+
+                    
+                }
                 message = sr.ReadLine();
             }
         }
