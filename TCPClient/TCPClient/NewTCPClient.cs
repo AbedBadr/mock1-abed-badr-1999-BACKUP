@@ -18,6 +18,18 @@ namespace TCPClient
             StreamWriter sw = new StreamWriter(ns);
             sw.AutoFlush = true; // enable automatic flushing
 
+            string message = " ";
+
+            while (message != "")
+            {
+                message = Console.ReadLine();
+                sw.WriteLine(message);
+
+                string serverAnswer = sr.ReadLine();
+
+                Console.WriteLine("Server: " + serverAnswer);
+            }
+
             //for (int i = 0; i < 5; i++)
             //{
             //    string message = Console.ReadLine();
