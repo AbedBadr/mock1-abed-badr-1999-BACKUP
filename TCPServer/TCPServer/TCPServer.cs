@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using System.Net.Sockets;
 using System.Threading.Tasks;
 
@@ -8,7 +9,8 @@ namespace TCPServer
     {
         static void Main(string[] args)
         {
-            TcpListener serverSocket = new TcpListener(6789);
+            IPAddress ip = IPAddress.Parse("127.0.0.1");
+            TcpListener serverSocket = new TcpListener(ip, 6789);
             serverSocket.Start();
             Console.WriteLine("Server started");
 
