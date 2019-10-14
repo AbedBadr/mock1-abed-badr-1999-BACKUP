@@ -26,6 +26,7 @@ namespace TCPServer
 
             string message = sr.ReadLine();
             string answer = "";
+
             while (message != null && message != "")
             {
                 Console.WriteLine("Client: " + message);
