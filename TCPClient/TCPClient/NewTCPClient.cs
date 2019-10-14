@@ -8,7 +8,7 @@ namespace TCPClient
 {
     class NewTCPClient
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             TcpClient clientSocket = new TcpClient("127.0.0.1", 6789);
             Console.WriteLine("Client ready");
