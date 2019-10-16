@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abedb\\source\\repos\\mock1-abed-badr-1999\\Skat\\SkatTest\\SkatTest.csproj": {}
+    "C:\\Users\\abedb\\Source\\Repos\\mock1-abed-badr-1999-desktop\\Skat\\SkatTest\\SkatTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abedb\\source\\repos\\mock1-abed-badr-1999\\Skat\\SkatTest\\SkatTest.csproj": {
+    "C:\\Users\\abedb\\Source\\Repos\\mock1-abed-badr-1999-desktop\\Skat\\SkatTest\\SkatTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abedb\\source\\repos\\mock1-abed-badr-1999\\Skat\\SkatTest\\SkatTest.csproj",
+        "projectUniqueName": "C:\\Users\\abedb\\Source\\Repos\\mock1-abed-badr-1999-desktop\\Skat\\SkatTest\\SkatTest.csproj",
         "projectName": "SkatTest",
-        "projectPath": "C:\\Users\\abedb\\source\\repos\\mock1-abed-badr-1999\\Skat\\SkatTest\\SkatTest.csproj",
+        "projectPath": "C:\\Users\\abedb\\Source\\Repos\\mock1-abed-badr-1999-desktop\\Skat\\SkatTest\\SkatTest.csproj",
         "packagesPath": "C:\\Users\\abedb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abedb\\source\\repos\\mock1-abed-badr-1999\\Skat\\SkatTest\\obj\\",
+        "outputPath": "C:\\Users\\abedb\\Source\\Repos\\mock1-abed-badr-1999-desktop\\Skat\\SkatTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\abedb\\source\\repos\\mock1-abed-badr-1999\\Skat\\Skat\\Skat.csproj": {
-                "projectPath": "C:\\Users\\abedb\\source\\repos\\mock1-abed-badr-1999\\Skat\\Skat\\Skat.csproj"
+              "C:\\Users\\abedb\\Source\\Repos\\mock1-abed-badr-1999-desktop\\Skat\\Skat\\Skat.csproj": {
+                "projectPath": "C:\\Users\\abedb\\Source\\Repos\\mock1-abed-badr-1999-desktop\\Skat\\Skat\\Skat.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\abedb\\source\\repos\\mock1-abed-badr-1999\\Skat\\Skat\\Skat.csproj": {
+    "C:\\Users\\abedb\\Source\\Repos\\mock1-abed-badr-1999-desktop\\Skat\\Skat\\Skat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abedb\\source\\repos\\mock1-abed-badr-1999\\Skat\\Skat\\Skat.csproj",
+        "projectUniqueName": "C:\\Users\\abedb\\Source\\Repos\\mock1-abed-badr-1999-desktop\\Skat\\Skat\\Skat.csproj",
         "projectName": "Skat",
-        "projectPath": "C:\\Users\\abedb\\source\\repos\\mock1-abed-badr-1999\\Skat\\Skat\\Skat.csproj",
+        "projectPath": "C:\\Users\\abedb\\Source\\Repos\\mock1-abed-badr-1999-desktop\\Skat\\Skat\\Skat.csproj",
         "packagesPath": "C:\\Users\\abedb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abedb\\source\\repos\\mock1-abed-badr-1999\\Skat\\Skat\\obj\\",
+        "outputPath": "C:\\Users\\abedb\\Source\\Repos\\mock1-abed-badr-1999-desktop\\Skat\\Skat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

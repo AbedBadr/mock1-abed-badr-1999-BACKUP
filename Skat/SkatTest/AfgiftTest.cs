@@ -38,6 +38,7 @@ namespace SkatTest
             Assert.AreEqual((int)expected, actual, "Are not equal");
         }
 
+        [TestMethod]
         public void BilAfgiftUnder0()
         {
             // ARRANGE

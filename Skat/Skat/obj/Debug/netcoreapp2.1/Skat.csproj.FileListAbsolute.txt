@@ -7,3 +7,12 @@ C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\Skat\obj\Debug\netcoreapp2
 C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\Skat\obj\Debug\netcoreapp2.1\Skat.AssemblyInfo.cs
 C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\Skat\obj\Debug\netcoreapp2.1\Skat.dll
 C:\Users\abedb\source\repos\mock1-abed-badr-1999\Skat\Skat\obj\Debug\netcoreapp2.1\Skat.pdb
+C:\Users\abedb\Source\Repos\mock1-abed-badr-1999-desktop\Skat\Skat\bin\Debug\netcoreapp2.1\Skat.deps.json
+C:\Users\abedb\Source\Repos\mock1-abed-badr-1999-desktop\Skat\Skat\bin\Debug\netcoreapp2.1\Skat.dll
+C:\Users\abedb\Source\Repos\mock1-abed-badr-1999-desktop\Skat\Skat\bin\Debug\netcoreapp2.1\Skat.pdb
+C:\Users\abedb\Source\Repos\mock1-abed-badr-1999-desktop\Skat\Skat\obj\Debug\netcoreapp2.1\Skat.csprojAssemblyReference.cache
+C:\Users\abedb\Source\Repos\mock1-abed-badr-1999-desktop\Skat\Skat\obj\Debug\netcoreapp2.1\Skat.csproj.CoreCompileInputs.cache
+C:\Users\abedb\Source\Repos\mock1-abed-badr-1999-desktop\Skat\Skat\obj\Debug\netcoreapp2.1\Skat.AssemblyInfoInputs.cache
+C:\Users\abedb\Source\Repos\mock1-abed-badr-1999-desktop\Skat\Skat\obj\Debug\netcoreapp2.1\Skat.AssemblyInfo.cs
+C:\Users\abedb\Source\Repos\mock1-abed-badr-1999-desktop\Skat\Skat\obj\Debug\netcoreapp2.1\Skat.dll
+C:\Users\abedb\Source\Repos\mock1-abed-badr-1999-desktop\Skat\Skat\obj\Debug\netcoreapp2.1\Skat.pdb
