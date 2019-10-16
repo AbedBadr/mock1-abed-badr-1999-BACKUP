@@ -8,7 +8,7 @@ namespace TCPClient
 {
     class DoubleMessageClient
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             TcpClient clientSocket = new TcpClient("127.0.0.1", 6789);
             Console.WriteLine("Client ready");
@@ -18,16 +18,15 @@ namespace TCPClient
             StreamWriter sw = new StreamWriter(ns);
             sw.AutoFlush = true;
 
-            Console.WriteLine("Indtast Personbil eller Elbil");
-
             int count = 0;
-            while (count++ < 2)
+            while (count++ < 1)
             {
+                Console.WriteLine("Indtast Personbil eller Elbil");
                 string messageCarType = Console.ReadLine();
+                sw.WriteLine(messageCarType);
+
                 Console.WriteLine("Indtast pris (kun tal)");
                 string messagePrice = Console.ReadLine();
-
-                sw.WriteLine(messageCarType);
                 sw.WriteLine(messagePrice);
 
                 string serverAnswer = sr.ReadLine();
