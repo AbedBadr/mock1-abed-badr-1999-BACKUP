@@ -19,7 +19,7 @@ namespace TCPServer
                 TcpClient connectionSocket = serverSocket.AcceptTcpClient();
                 Console.WriteLine("Server activated");
 
-                SwitchService service = new SwitchService(connectionSocket);
+                Service service = new Service(connectionSocket);
 
                 Task.Factory.StartNew(() => service.DoIt());
             }
