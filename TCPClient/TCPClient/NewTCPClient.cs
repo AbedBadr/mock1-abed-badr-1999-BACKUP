@@ -18,28 +18,18 @@ namespace TCPClient
             StreamWriter sw = new StreamWriter(ns);
             sw.AutoFlush = true; // enable automatic flushing
 
-            string message = Console.ReadLine();
+            Console.WriteLine("Indtast personbil eller elbil");
 
-            while (message != "")
+            int count = 0;
+            while (count++ < 6)
             {
+                string message = Console.ReadLine();
                 sw.WriteLine(message);
 
-                string serverAnswer = sr.ReadLine();
+                string serverMessage = sr.ReadLine();
 
-                Console.WriteLine("Server: " + serverAnswer);
-
-                message = Console.ReadLine();
+                Console.WriteLine("Server: " + serverMessage);
             }
-
-            //for (int i = 0; i < 5; i++)
-            //{
-            //    string message = Console.ReadLine();
-            //    sw.WriteLine(message);
-
-            //    string serverAnswer = sr.ReadLine();
-
-            //    Console.WriteLine("Server: " + serverAnswer);
-            //}
 
             Console.WriteLine("No more from server. Press Enter");
             Console.ReadLine();

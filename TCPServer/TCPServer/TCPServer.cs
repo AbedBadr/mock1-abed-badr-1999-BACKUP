@@ -19,9 +19,9 @@ namespace TCPServer
                 TcpClient connectionSocket = serverSocket.AcceptTcpClient();
                 Console.WriteLine("Server activated");
 
-                FeeService feeService = new FeeService(connectionSocket);
+                Service service = new Service(connectionSocket);
 
-                Task.Factory.StartNew(() => feeService.DoIt());
+                Task.Factory.StartNew(() => service.DoIt());
             }
         }
     }
