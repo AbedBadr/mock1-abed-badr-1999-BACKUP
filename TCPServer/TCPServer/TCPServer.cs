@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net;
 using System.Net.Sockets;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace TCPServer
@@ -19,7 +20,7 @@ namespace TCPServer
                 TcpClient connectionSocket = serverSocket.AcceptTcpClient();
                 Console.WriteLine("Server activated");
 
-                Service service = new Service(connectionSocket);
+                TCPServerFinal service = new TCPServerFinal(connectionSocket);
 
                 Task.Factory.StartNew(() => service.DoIt());
             }

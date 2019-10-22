@@ -6,9 +6,9 @@ using System.Text;
 
 namespace TCPClient
 {
-    class DoubleMessageClient
+    class TCPClientFinal
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             TcpClient clientSocket = new TcpClient("127.0.0.1", 6789);
             Console.WriteLine("Client ready");
@@ -18,16 +18,13 @@ namespace TCPClient
             StreamWriter sw = new StreamWriter(ns);
             sw.AutoFlush = true;
 
-            int count = 0;
-            while (count++ < 1)
+            Console.WriteLine("Indtast Personbil eller Elbil");
+            while (true)
             {
-                Console.WriteLine("Indtast Personbil eller Elbil");
-                string messageCarType = Console.ReadLine();
-                sw.WriteLine(messageCarType);
+                string message = Console.ReadLine();
+                sw.WriteLine(message);
 
-                Console.WriteLine("Indtast pris (kun tal)");
-                string messagePrice = Console.ReadLine();
-                sw.WriteLine(messagePrice);
+                if (message == "STOP" || message == "stop") break;
 
                 string serverAnswer = sr.ReadLine();
                 Console.WriteLine("Server: " + serverAnswer);
